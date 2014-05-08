@@ -610,7 +610,6 @@
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Profile;
@@ -635,7 +634,6 @@
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
