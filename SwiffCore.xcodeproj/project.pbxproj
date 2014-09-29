@@ -77,6 +77,39 @@
 		55F9C75814464B1300FE8E4F /* SwiffSceneAndFrameLabelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F9C75714464B1300FE8E4F /* SwiffSceneAndFrameLabelData.m */; };
 		55FE9B5614D40CBA00CF505B /* SwiffSparseArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE9B5514D40CBA00CF505B /* SwiffSparseArray.m */; };
 		55FE9B5814D413B600CF505B /* SwiffSparseArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE9B5514D40CBA00CF505B /* SwiffSparseArray.m */; };
+		E74B876119D5F3E4007DCE34 /* SwiffCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65B251442A2B300E12C27 /* SwiffCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876219D5F3E4007DCE34 /* SwiffImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C1B1F7146890790010CB82 /* SwiffImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876319D5F3E4007DCE34 /* SwiffTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 557082D914B7B2B90072C19A /* SwiffTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876419D5F3E4007DCE34 /* SwiffUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 557082DD14B7B3400072C19A /* SwiffUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876519D5F3E4007DCE34 /* SwiffParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A7114429C9E00E12C27 /* SwiffParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876619D5F3E4007DCE34 /* SwiffWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5574A0A1145D238700DA4FB7 /* SwiffWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876719D5F3E4007DCE34 /* SwiffDynamicTextAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5539A63D148EFB0400E8FA86 /* SwiffDynamicTextAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876819D5F3E4007DCE34 /* SwiffFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65C8814AFC61B00DA2DDB /* SwiffFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876919D5F3E4007DCE34 /* SwiffFillStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A6114429C9E00E12C27 /* SwiffFillStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876A19D5F3E4007DCE34 /* SwiffGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A6914429C9E00E12C27 /* SwiffGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876B19D5F3E4007DCE34 /* SwiffLineStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A6B14429C9E00E12C27 /* SwiffLineStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876C19D5F3E4007DCE34 /* SwiffPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A7314429C9E00E12C27 /* SwiffPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876D19D5F3E4007DCE34 /* SwiffSparseArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FE9B5414D40CBA00CF505B /* SwiffSparseArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876E19D5F3E4007DCE34 /* SwiffSoundStreamBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 55261BEC14B4160E004C6DA4 /* SwiffSoundStreamBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B876F19D5F3E4007DCE34 /* SwiffStaticTextRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 5539A639148DA57A00E8FA86 /* SwiffStaticTextRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877019D5F3E4007DCE34 /* SwiffDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5574A0A0145D1BB300DA4FB7 /* SwiffDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877119D5F3E4007DCE34 /* SwiffBitmapDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5539A64414905CB500E8FA86 /* SwiffBitmapDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877219D5F3E4007DCE34 /* SwiffDynamicTextDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A5F14429C9E00E12C27 /* SwiffDynamicTextDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877319D5F3E4007DCE34 /* SwiffFontDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A6314429C9E00E12C27 /* SwiffFontDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877419D5F3E4007DCE34 /* SwiffShapeDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A7914429C9E00E12C27 /* SwiffShapeDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877519D5F3E4007DCE34 /* SwiffSpriteDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A7B14429C9E00E12C27 /* SwiffSpriteDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877619D5F3E4007DCE34 /* SwiffSoundDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5545A6AF1458B70A001428F6 /* SwiffSoundDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877719D5F3E4007DCE34 /* SwiffPlacedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A7714429C9E00E12C27 /* SwiffPlacedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877819D5F3E4007DCE34 /* SwiffPlacedDynamicText.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F3158C148A072100E6E625 /* SwiffPlacedDynamicText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877919D5F3E4007DCE34 /* SwiffSoundEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 550C99B8145A04FD00836C62 /* SwiffSoundEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877A19D5F3E4007DCE34 /* SwiffFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A6714429C9E00E12C27 /* SwiffFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877B19D5F3E4007DCE34 /* SwiffMovie.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A6D14429C9E00E12C27 /* SwiffMovie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877C19D5F3E4007DCE34 /* SwiffPlayhead.h in Headers */ = {isa = PBXBuildFile; fileRef = 55038DDE144CDA4900EA5841 /* SwiffPlayhead.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877D19D5F3E4007DCE34 /* SwiffScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DBFABF1444EE1F003AA0DA /* SwiffScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877E19D5F3E4007DCE34 /* SwiffSoundPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 550C99B4145A03F200836C62 /* SwiffSoundPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B877F19D5F3E4007DCE34 /* SwiffRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F65A6F14429C9E00E12C27 /* SwiffRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B878019D5F3E4007DCE34 /* SwiffLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5580F4D7146DE35E005F2AC0 /* SwiffLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B878119D5F3E4007DCE34 /* SwiffView.h in Headers */ = {isa = PBXBuildFile; fileRef = 557A58AB15A274910063591B /* SwiffView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -409,6 +442,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E74B876019D5F39A007DCE34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74B876119D5F3E4007DCE34 /* SwiffCore.h in Headers */,
+				E74B876219D5F3E4007DCE34 /* SwiffImport.h in Headers */,
+				E74B876319D5F3E4007DCE34 /* SwiffTypes.h in Headers */,
+				E74B876419D5F3E4007DCE34 /* SwiffUtils.h in Headers */,
+				E74B876519D5F3E4007DCE34 /* SwiffParser.h in Headers */,
+				E74B876619D5F3E4007DCE34 /* SwiffWriter.h in Headers */,
+				E74B876719D5F3E4007DCE34 /* SwiffDynamicTextAttributes.h in Headers */,
+				E74B876819D5F3E4007DCE34 /* SwiffFilter.h in Headers */,
+				E74B876919D5F3E4007DCE34 /* SwiffFillStyle.h in Headers */,
+				E74B876A19D5F3E4007DCE34 /* SwiffGradient.h in Headers */,
+				E74B876B19D5F3E4007DCE34 /* SwiffLineStyle.h in Headers */,
+				E74B876C19D5F3E4007DCE34 /* SwiffPath.h in Headers */,
+				E74B876D19D5F3E4007DCE34 /* SwiffSparseArray.h in Headers */,
+				E74B876E19D5F3E4007DCE34 /* SwiffSoundStreamBlock.h in Headers */,
+				E74B876F19D5F3E4007DCE34 /* SwiffStaticTextRecord.h in Headers */,
+				E74B877019D5F3E4007DCE34 /* SwiffDefinition.h in Headers */,
+				E74B877119D5F3E4007DCE34 /* SwiffBitmapDefinition.h in Headers */,
+				E74B877219D5F3E4007DCE34 /* SwiffDynamicTextDefinition.h in Headers */,
+				E74B877319D5F3E4007DCE34 /* SwiffFontDefinition.h in Headers */,
+				E74B877419D5F3E4007DCE34 /* SwiffShapeDefinition.h in Headers */,
+				E74B877519D5F3E4007DCE34 /* SwiffSpriteDefinition.h in Headers */,
+				E74B877619D5F3E4007DCE34 /* SwiffSoundDefinition.h in Headers */,
+				E74B877719D5F3E4007DCE34 /* SwiffPlacedObject.h in Headers */,
+				E74B877819D5F3E4007DCE34 /* SwiffPlacedDynamicText.h in Headers */,
+				E74B877919D5F3E4007DCE34 /* SwiffSoundEvent.h in Headers */,
+				E74B877A19D5F3E4007DCE34 /* SwiffFrame.h in Headers */,
+				E74B877B19D5F3E4007DCE34 /* SwiffMovie.h in Headers */,
+				E74B877C19D5F3E4007DCE34 /* SwiffPlayhead.h in Headers */,
+				E74B877D19D5F3E4007DCE34 /* SwiffScene.h in Headers */,
+				E74B877E19D5F3E4007DCE34 /* SwiffSoundPlayer.h in Headers */,
+				E74B877F19D5F3E4007DCE34 /* SwiffRenderer.h in Headers */,
+				E74B878019D5F3E4007DCE34 /* SwiffLayer.h in Headers */,
+				E74B878119D5F3E4007DCE34 /* SwiffView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -434,6 +507,7 @@
 			buildConfigurationList = 5595A5F31442BFFA00DECD41 /* Build configuration list for PBXNativeTarget "SwiffCore" */;
 			buildPhases = (
 				558F94BE160DA881002ED658 /* rchook */,
+				E74B876019D5F39A007DCE34 /* Headers */,
 				5595A5E51442BFFA00DECD41 /* Sources */,
 				5595A5E61442BFFA00DECD41 /* Frameworks */,
 			);
@@ -452,7 +526,7 @@
 		55F65A3014429BCB00E12C27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 			};
 			buildConfigurationList = 55F65A3314429BCB00E12C27 /* Build configuration list for PBXProject "SwiffCore" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -577,6 +651,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55C1B1F014688E5B0010CB82 /* SwiffCore_Mac_Debug.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
@@ -589,6 +664,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55C1B1F114688E5B0010CB82 /* SwiffCore_Mac_Release.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
@@ -612,8 +688,9 @@
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRIVATE_HEADERS_FOLDER_PATH = include/SwiffCore;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 			};
 			name = Profile;
 		};
@@ -621,6 +698,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55955E0E147089F000BAB75E /* SwiffCore_Mac_Profile.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
@@ -638,8 +716,9 @@
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRIVATE_HEADERS_FOLDER_PATH = include/SwiffCore;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 			};
 			name = Debug;
 		};
@@ -652,8 +731,9 @@
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRIVATE_HEADERS_FOLDER_PATH = include/SwiffCore;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 			};
 			name = Release;
 		};
