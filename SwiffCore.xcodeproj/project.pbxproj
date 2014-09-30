@@ -673,40 +673,6 @@
 			};
 			name = Release;
 		};
-		55955E0F14708A0A00BAB75E /* Profile */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Profile;
-		};
-		55955E1014708A0A00BAB75E /* Profile */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55955E0D147089F000BAB75E /* SwiffCore_iOS_Profile.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/usr/include/libxml2",
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRIVATE_HEADERS_FOLDER_PATH = include/SwiffCore;
-				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
-			};
-			name = Profile;
-		};
-		55955E1114708A0A00BAB75E /* Profile */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55955E0E147089F000BAB75E /* SwiffCore_Mac_Profile.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/usr/include/libxml2",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-			};
-			name = Profile;
-		};
 		5595A5F11442BFFA00DECD41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55C1B1EE14688E5B0010CB82 /* SwiffCore_iOS_Debug.xcconfig */;
@@ -757,7 +723,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5516B4D11446D0EA00231D67 /* Debug */,
-				55955E1114708A0A00BAB75E /* Profile */,
 				5516B4D21446D0EA00231D67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -767,7 +732,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5595A5F11442BFFA00DECD41 /* Debug */,
-				55955E1014708A0A00BAB75E /* Profile */,
 				5595A5F21442BFFA00DECD41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -777,7 +741,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55F65A3514429BCB00E12C27 /* Debug */,
-				55955E0F14708A0A00BAB75E /* Profile */,
 				55F65A3614429BCB00E12C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
