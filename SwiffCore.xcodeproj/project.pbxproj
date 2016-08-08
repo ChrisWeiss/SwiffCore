@@ -526,6 +526,7 @@
 		55F65A3014429BCB00E12C27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
 				LastUpgradeCheck = 0600;
 			};
 			buildConfigurationList = 55F65A3314429BCB00E12C27 /* Build configuration list for PBXProject "SwiffCore" */;
